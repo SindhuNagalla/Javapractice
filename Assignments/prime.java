@@ -1,9 +1,14 @@
+import java.util.*;
+
 class prime 
 {
 	public static void main(String[] args) 
 	{
-		int num=5,count=0;
-		
+		int count=0;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=s.nextInt();
+
 		for(int i=1;i<=num;i++)
 		{
 			if(num%i==0)
