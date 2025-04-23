@@ -4,6 +4,7 @@ abstract class A
 	void print()
 	{
 		System.out.println("print() method");
+		
 	}
 }
 class B extends A 
